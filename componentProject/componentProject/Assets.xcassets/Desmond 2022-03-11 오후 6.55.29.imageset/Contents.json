@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Desmond 2022-03-11 오후 6.55.29.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

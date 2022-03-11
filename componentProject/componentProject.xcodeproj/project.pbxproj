@@ -18,6 +18,9 @@
 		F7312F2227D9C30D00951B97 /* componentProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312F2127D9C30D00951B97 /* componentProjectUITestsLaunchTests.swift */; };
 		F7312F3127D9F6B400951B97 /* PracticeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312F3027D9F6B400951B97 /* PracticeScrollView.swift */; };
 		F7312F3327DA1FE800951B97 /* MainUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312F3227DA1FE800951B97 /* MainUICollectionViewCell.swift */; };
+		F7312F3727DB536B00951B97 /* ImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312F3627DB536B00951B97 /* ImgViewController.swift */; };
+		F7312F3927DB59A000951B97 /* DatePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312F3827DB59A000951B97 /* DatePick.swift */; };
+		F7312F3B27DB62EC00951B97 /* UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312F3A27DB62EC00951B97 /* UIActivityIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		F7312F2127D9C30D00951B97 /* componentProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = componentProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7312F3027D9F6B400951B97 /* PracticeScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeScrollView.swift; sourceTree = "<group>"; };
 		F7312F3227DA1FE800951B97 /* MainUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUICollectionViewCell.swift; sourceTree = "<group>"; };
+		F7312F3627DB536B00951B97 /* ImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgViewController.swift; sourceTree = "<group>"; };
+		F7312F3827DB59A000951B97 /* DatePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePick.swift; sourceTree = "<group>"; };
+		F7312F3A27DB62EC00951B97 /* UIActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				F7312F0427D9C30B00951B97 /* Main.storyboard */,
+				F7312F3A27DB62EC00951B97 /* UIActivityIndicatorView.swift */,
+				F7312F3827DB59A000951B97 /* DatePick.swift */,
+				F7312F3627DB536B00951B97 /* ImgViewController.swift */,
 				F7312F0227D9C30B00951B97 /* ViewController.swift */,
+				F7312F3027D9F6B400951B97 /* PracticeScrollView.swift */,
 				F7312EFE27D9C30B00951B97 /* AppDelegate.swift */,
 				F7312F0027D9C30B00951B97 /* SceneDelegate.swift */,
 				F7312F3227DA1FE800951B97 /* MainUICollectionViewCell.swift */,
-				F7312F3027D9F6B400951B97 /* PracticeScrollView.swift */,
 				F7312F0727D9C30C00951B97 /* Assets.xcassets */,
 				F7312F0927D9C30C00951B97 /* LaunchScreen.storyboard */,
 				F7312F0C27D9C30C00951B97 /* Info.plist */,
@@ -265,9 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7312F3127D9F6B400951B97 /* PracticeScrollView.swift in Sources */,
+				F7312F3927DB59A000951B97 /* DatePick.swift in Sources */,
 				F7312F0327D9C30B00951B97 /* ViewController.swift in Sources */,
+				F7312F3B27DB62EC00951B97 /* UIActivityIndicatorView.swift in Sources */,
 				F7312EFF27D9C30B00951B97 /* AppDelegate.swift in Sources */,
 				F7312F3327DA1FE800951B97 /* MainUICollectionViewCell.swift in Sources */,
+				F7312F3727DB536B00951B97 /* ImgViewController.swift in Sources */,
 				F7312F0127D9C30B00951B97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
