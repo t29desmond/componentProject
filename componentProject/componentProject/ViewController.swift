@@ -16,6 +16,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         switchBtn.setOn(false, animated: true)
          super.viewDidLoad()
+        let field = UITextField()
+        field.frame = CGRect(x: 100, y: 100, width: 200, height: 30)
+        field.borderStyle = .roundedRect
+        field.placeholder = "안녕하세요"
+        self.view.addSubview(field)
     }
     
     
